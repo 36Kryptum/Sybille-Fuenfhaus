@@ -502,6 +502,8 @@ a {
 .icon-container {
   width: 85%;
   height: 15vw;
+  max-height: 250px;
+  max-width: 200px;
   border: 1px solid #b28f3e;
   border-radius: 8px;
   justify-content: center;
@@ -907,7 +909,6 @@ a {
 
 @media screen and (max-width: 479px) {
   .container {
-    max-width: none;
     justify-content: center;
   }
 
@@ -968,16 +969,12 @@ a {
   }
 }
 
-#w-node-d04a2a62-120e-5e94-f8fa-d7630dd26640-402fe62c {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
 #w-node-f06dec5d-a100-e121-d1fc-91df24cb3620-402fe62c {
   grid-area: span 1 / span 1 / span 1 / span 1;
   align-self: center;
 }
 
-#w-node-_5f8b2470-1543-b2b9-985a-ac32857d61cc-857d61c8, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61d6-857d61c8, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61df-857d61c8 {
+#w-node-d04a2a62-120e-5e94-f8fa-d7630dd26640-402fe62c, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61cc-857d61c8, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61d6-857d61c8, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61df-857d61c8 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
