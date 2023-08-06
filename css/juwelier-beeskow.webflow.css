@@ -271,7 +271,8 @@ a {
 }
 
 .card._500 {
-  height: 600px;
+  height: auto;
+  max-height: 650px;
   max-width: 500px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -912,6 +913,7 @@ a {
 .m-w {
   max-width: 60ch;
   margin-bottom: auto;
+  line-height: 25px;
 }
 
 .image-5 {
@@ -1188,6 +1190,11 @@ a {
 
   .card.white._100 {
     padding: 0;
+  }
+
+  .card._500 {
+    height: auto;
+    max-height: 750px;
   }
 
   .image-2 {
