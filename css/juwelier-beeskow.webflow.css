@@ -297,7 +297,7 @@ a {
 
 .bold.nav.mobile {
   color: #001637;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .bold.nav.mobile.w--current {
@@ -1185,7 +1185,7 @@ a {
   }
 
   .grid-3 {
-    grid-template-columns: 75%;
+    grid-template-columns: 100%;
     justify-content: center;
   }
 
