@@ -933,6 +933,16 @@ a {
   height: 100%;
 }
 
+.hero-span {
+  text-transform: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Monsieurladoulaise Regular, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  display: inline-block;
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     padding-top: 0;
@@ -1276,6 +1286,12 @@ a {
 
   .grid-3 {
     grid-template-columns: 100%;
+  }
+
+  .hero-span {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 38px;
   }
 }
 
