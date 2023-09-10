@@ -368,7 +368,9 @@ a {
   color: #b28f3e;
   margin-bottom: 20px;
   font-family: Monsieurladoulaise Regular, sans-serif;
+  font-size: 46px;
   font-weight: 400;
+  line-height: 64px;
 }
 
 .image {
@@ -456,7 +458,8 @@ a {
 }
 
 .header-quaternary.grey-text.uppercase {
-  padding: 2px 4px;
+  margin-bottom: 0;
+  padding: 2px 4px 0;
 }
 
 .flex-horizontal {
@@ -948,6 +951,10 @@ a {
     margin-bottom: 16px;
   }
 
+  .card {
+    min-height: 200px;
+  }
+
   .card.white._100 {
     width: 100%;
   }
@@ -1190,6 +1197,10 @@ a {
     margin-bottom: 16px;
   }
 
+  .card {
+    min-height: 150px;
+  }
+
   .card.white._100 {
     padding: 0;
   }
@@ -1197,6 +1208,11 @@ a {
   .card._500 {
     height: auto;
     max-height: 750px;
+  }
+
+  .herosubheading {
+    font-size: 36px;
+    line-height: 48px;
   }
 
   .image-2 {
@@ -1257,6 +1273,10 @@ a {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .grid-3 {
+    grid-template-columns: 100%;
+  }
 }
 
 #w-node-f88d868f-ad7a-6848-41c1-2cb252b17eae-402fe62c, #w-node-cce9cdda-a22d-f817-b019-0f9142125f8b-402fe62c, #w-node-_429c0c71-8f1b-5507-7fc0-5c374cf50d75-402fe62c, #w-node-_0da1f153-d319-4cee-1130-83adb99498cf-402fe62c, #w-node-e1611de5-14e1-79a7-c259-29027c62c8e0-402fe62c {
@@ -1275,6 +1295,12 @@ a {
 @media screen and (max-width: 991px) {
   #w-node-f06dec5d-a100-e121-d1fc-91df24cb3620-402fe62c {
     justify-self: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_53a3fdb7-7e7b-6951-2450-401754d288fc-402fe62c {
+    grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
 
