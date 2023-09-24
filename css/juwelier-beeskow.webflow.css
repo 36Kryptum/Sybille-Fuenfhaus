@@ -285,6 +285,10 @@ a {
   display: flex;
 }
 
+.card._500.old {
+  opacity: .5;
+}
+
 .bold {
   font-weight: 700;
 }
@@ -705,6 +709,10 @@ a {
   margin-top: 0;
 }
 
+.heading-2.no.old {
+  color: #5c5c5c;
+}
+
 .link-2 {
   text-decoration: underline;
 }
@@ -926,6 +934,10 @@ a {
   height: 100%;
   object-fit: contain;
   overflow: hidden;
+}
+
+.image-5.old {
+  opacity: .5;
 }
 
 .link-block {
