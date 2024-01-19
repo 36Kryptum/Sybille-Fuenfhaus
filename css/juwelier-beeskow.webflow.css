@@ -271,6 +271,7 @@ a {
 }
 
 .navbar {
+  z-index: 1;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -1084,7 +1085,7 @@ a {
 .fs-cc-prefs_button {
   border: 2px solid var(--primary);
   background-color: var(--primary);
-  border-radius: 999rem;
+  border-radius: 10px;
   margin-right: .5rem;
   padding: .625rem 1.5rem;
   font-size: .875rem;
@@ -1103,7 +1104,7 @@ a {
   background-color: var(--primary);
   color: #fff;
   text-align: center;
-  border-radius: 999rem;
+  border-radius: 10px;
   margin-left: 1rem;
   padding: .625rem 1.25rem;
   font-size: 1rem;
