@@ -862,7 +862,7 @@ a {
 
 .fs-cc-manager_component {
   z-index: 999;
-  display: flex;
+  display: none;
   position: fixed;
   top: auto;
   bottom: 1.25rem;
@@ -1065,7 +1065,7 @@ a {
   align-items: center;
   margin-bottom: 0;
   padding: 2rem;
-  display: flex;
+  display: none;
   position: fixed;
   top: 0%;
   bottom: 0%;
@@ -1121,7 +1121,7 @@ a {
   background-color: #f5f6ff;
   border-top: 1px solid rgba(67, 83, 255, .16);
   padding: 1.5rem 2rem;
-  display: flex;
+  display: none;
   position: fixed;
   top: auto;
   bottom: 0%;
