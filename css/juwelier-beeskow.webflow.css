@@ -1496,6 +1496,10 @@ a {
     grid-template-columns: 100%;
   }
 
+  .image-wrapper.valentine {
+    height: 20vh;
+  }
+
   .hero-span {
     padding-top: 0;
     padding-bottom: 0;
