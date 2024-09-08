@@ -746,10 +746,8 @@ a {
   border-radius: 0;
 }
 
-.image-wrapper {
-  background-image: url('../images/14479823_688158604691497_1701581243282916410_n.jpg');
-  background-position: 50%;
-  background-size: cover;
+.news_image {
+  object-fit: cover;
   border-radius: 10px;
   flex-direction: column;
   flex: 0 auto;
@@ -757,34 +755,37 @@ a {
   align-items: center;
   width: 100%;
   height: 200px;
-  overflow: hidden;
 }
 
-.image-wrapper.chapter {
+.news_image.chapter {
   background-image: url('../images/WhatsApp-Image-2023-12-31-at-11.45.38.jpeg');
 }
 
-.image-wrapper.christmas {
+.news_image.christmas {
   background-image: url('../images/8381555-1-1_page-0001.jpg');
 }
 
-.image-wrapper.night {
+.news_image.night {
   background-image: url('../images/Lange-Nacht2023Plakat.pdf_0.webp');
 }
 
-.image-wrapper.valentine {
+.news_image.valentine {
   background-image: url('../images/LovelyDays_08073-0405081-02-2-2.png');
 }
 
-.image-wrapper.new-color {
+.news_image.new-color {
   background-image: url('../images/IMG_1336.jpg');
 }
 
-.image-wrapper.new-logo {
+.news_image.new-logo {
   background-image: url('../images/WhatsApp-Image-2024-07-25-at-13.41.36.jpeg');
 }
 
-.div-block-23.video {
+.news_text-wrapper {
+  overflow-y: scroll;
+}
+
+.news_text-wrapper.video {
   overflow: hidden;
 }
 
@@ -793,7 +794,6 @@ a {
   max-height: 250px;
   margin-bottom: 32px;
   line-height: 25px;
-  overflow: scroll;
 }
 
 .image-5 {
@@ -1484,7 +1484,7 @@ a {
     grid-template-columns: 100%;
   }
 
-  .image-wrapper.valentine {
+  .news_image.valentine {
     height: 20vh;
   }
 
@@ -1538,7 +1538,7 @@ a {
   align-self: center;
 }
 
-#w-node-_53a3fdb7-7e7b-6951-2450-401754d288fc-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d288fd-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d288fe-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d288ff-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d28900-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d28901-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d28903-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d28902-402fe62c, #w-node-_40229672-242c-7456-0439-7b7afac3abc0-402fe62c, #w-node-_930845ad-509d-9c48-fc9e-f06f8f86740c-402fe62c, #w-node-_25634766-f60a-77d5-74d1-5df4ae94c009-402fe62c, #w-node-eafbeaf7-1092-5f45-e93f-5e92a6a1b8dd-402fe62c, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61cc-857d61c8, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61d6-857d61c8, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61df-857d61c8, #w-node-_3e70210a-0c65-58ef-7b13-2c5c19156aee-402fe62d, #w-node-_3e70210a-0c65-58ef-7b13-2c5c19156aef-402fe62d, #w-node-e488e855-a91e-d5de-818c-f6cc56004dbe-402fe62d, #w-node-e488e855-a91e-d5de-818c-f6cc56004dbf-402fe62d, #w-node-_953fd727-f16a-495f-5edf-5cc27252dfca-402fe62d, #w-node-_953fd727-f16a-495f-5edf-5cc27252dfcb-402fe62d, #w-node-_8b5d202c-5d2a-5437-71d3-881a59203320-402fe62d, #w-node-_8b5d202c-5d2a-5437-71d3-881a59203321-402fe62d, #w-node-_20d73a61-139e-a45d-af4b-d073caf18cb6-402fe62d, #w-node-c92519d0-78c2-905b-ad01-93d621c130e1-402fe62d, #w-node-_3a0ea0f1-2a61-598e-caf7-094c1b35a44d-402fe62d, #w-node-_3a0ea0f1-2a61-598e-caf7-094c1b35a44e-402fe62d, #w-node-a6e47632-97e4-d34b-c5bc-8b374d8e88b4-402fe62d, #w-node-a6e47632-97e4-d34b-c5bc-8b374d8e88b5-402fe62d, #w-node-_418bdae0-f9f0-01da-e9f5-89efd693692e-402fe62d {
+#w-node-_53a3fdb7-7e7b-6951-2450-401754d288fc-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d288fd-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d288fe-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d288ff-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d28900-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d28901-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d28903-402fe62c, #w-node-_53a3fdb7-7e7b-6951-2450-401754d28902-402fe62c, #w-node-_40229672-242c-7456-0439-7b7afac3abc0-402fe62c, #w-node-_930845ad-509d-9c48-fc9e-f06f8f86740c-402fe62c, #w-node-_25634766-f60a-77d5-74d1-5df4ae94c009-402fe62c, #w-node-eafbeaf7-1092-5f45-e93f-5e92a6a1b8dd-402fe62c, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61cc-857d61c8, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61d6-857d61c8, #w-node-_5f8b2470-1543-b2b9-985a-ac32857d61df-857d61c8, #w-node-afafbada-db36-8db3-e1e5-8ace4c7d8f7d-402fe62d, #w-node-afafbada-db36-8db3-e1e5-8ace4c7d8f7e-402fe62d, #w-node-_3e70210a-0c65-58ef-7b13-2c5c19156aee-402fe62d, #w-node-_3e70210a-0c65-58ef-7b13-2c5c19156aef-402fe62d, #w-node-e488e855-a91e-d5de-818c-f6cc56004dbe-402fe62d, #w-node-e488e855-a91e-d5de-818c-f6cc56004dbf-402fe62d, #w-node-_320cd9cd-2d0c-d88a-a8e0-f85d5363e994-402fe62d, #w-node-_320cd9cd-2d0c-d88a-a8e0-f85d5363e995-402fe62d, #w-node-_6b99e8ea-fb6e-5a02-1b17-5f859b788e5b-402fe62d, #w-node-_6b99e8ea-fb6e-5a02-1b17-5f859b788e5c-402fe62d {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
