@@ -343,7 +343,6 @@ a {
 
 .marquee-cover-horizontal {
   z-index: 10;
-  pointer-events: none;
   background-image: linear-gradient(270deg, #fff0 70%, #fff), linear-gradient(270deg, #fff, #fff0 30%);
   position: absolute;
   inset: 0%;
@@ -497,7 +496,6 @@ a {
 
 .marquee-cover {
   z-index: 10;
-  pointer-events: none;
   background-image: linear-gradient(#fff0 70%, #fff), linear-gradient(#fff, #fff0 30%);
   position: absolute;
   inset: 0%;
