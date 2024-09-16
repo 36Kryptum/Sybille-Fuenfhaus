@@ -343,6 +343,7 @@ a {
 
 .marquee-cover-horizontal {
   z-index: 10;
+  pointer-events: none;
   background-image: linear-gradient(270deg, #fff0 70%, #fff), linear-gradient(270deg, #fff, #fff0 30%);
   position: absolute;
   inset: 0%;
@@ -363,11 +364,11 @@ a {
   width: 41%;
 }
 
-.icon-2 {
+.icon-image {
   width: 65%;
 }
 
-.icon-container-alt {
+.icon-container-horizontal {
   border: 1px solid var(--primary);
   border-radius: 8px;
   flex: none;
@@ -496,6 +497,7 @@ a {
 
 .marquee-cover {
   z-index: 10;
+  pointer-events: none;
   background-image: linear-gradient(#fff0 70%, #fff), linear-gradient(#fff, #fff0 30%);
   position: absolute;
   inset: 0%;
@@ -1449,7 +1451,7 @@ a {
     height: 200px;
   }
 
-  .icon-container-alt {
+  .icon-container-horizontal {
     width: 200px;
     height: 100px;
   }
