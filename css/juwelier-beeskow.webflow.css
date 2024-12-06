@@ -1410,6 +1410,11 @@ a {
     justify-content: center;
   }
 
+  .news_image {
+    width: 100%;
+    max-height: 400px;
+  }
+
   .grid-9 {
     grid-template-columns: 1fr;
   }
