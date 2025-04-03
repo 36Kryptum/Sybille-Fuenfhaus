@@ -674,7 +674,7 @@ a {
 
 .service-grid {
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .m-b {
@@ -1548,7 +1548,7 @@ a {
   }
 }
 
-#w-node-f88d868f-ad7a-6848-41c1-2cb252b17eae-402fe62c, #w-node-cce9cdda-a22d-f817-b019-0f9142125f8b-402fe62c, #w-node-_429c0c71-8f1b-5507-7fc0-5c374cf50d75-402fe62c, #w-node-_0da1f153-d319-4cee-1130-83adb99498cf-402fe62c, #w-node-e1611de5-14e1-79a7-c259-29027c62c8e0-402fe62c {
+#w-node-f88d868f-ad7a-6848-41c1-2cb252b17eae-402fe62c, #w-node-cce9cdda-a22d-f817-b019-0f9142125f8b-402fe62c, #w-node-_429c0c71-8f1b-5507-7fc0-5c374cf50d75-402fe62c, #w-node-_0da1f153-d319-4cee-1130-83adb99498cf-402fe62c, #w-node-e1611de5-14e1-79a7-c259-29027c62c8e0-402fe62c, #w-node-_9c822f8c-ac7c-9b80-c00b-944db476a48b-402fe62c {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
